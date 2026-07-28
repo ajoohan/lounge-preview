@@ -1,0 +1,13 @@
+<!-- 투명 배경 · 마크만. viewBox를 마크 외곽(11.94~108.06)에 맞춰 조여 꽉 채운다 -->
+<svg viewBox="10 10 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lounge-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E0189C" />
+      <stop offset="1" stop-color="#2B4FE0" />
+    </linearGradient>
+  </defs>
+  <path d="M71.37 22.82 A38.88 38.88 0 0 1 97.88 68.75" fill="none" stroke="url(#lounge-brand)" stroke-width="18.36" stroke-linecap="round" />
+  <path d="M86.52 88.44 A38.88 38.88 0 0 1 33.48 88.44" fill="none" stroke="url(#lounge-brand)" stroke-width="18.36" stroke-linecap="round" />
+  <path d="M22.12 68.75 A38.88 38.88 0 0 1 48.63 22.82" fill="none" stroke="url(#lounge-brand)" stroke-width="18.36" stroke-linecap="round" />
+  <circle cx="60" cy="60" r="13.77" fill="url(#lounge-brand)" />
+</svg>
