@@ -1,2 +1,39 @@
+# 검색엔진에는 걸리지 않게 한다 - 내부 도구이고, 로그인 없이는 아무것도 보이지 않는다
 User-agent: *
+Disallow: /
+
+# 다만 링크 미리보기 봇은 통과시킨다.
+# 초대와 알림이 링크로 오가는데, 미리보기가 없으면 받는 쪽에는 낯선 주소로만 보인다.
+# 이들이 읽는 것은 index.html 의 og 태그(제목·설명·표지 이미지)뿐이다 -
+# 앱의 내용은 로그인 뒤에 API 로 오므로 이 문을 열어도 새어 나갈 것이 없다.
+# 슬랙은 이 파일을 지키기 때문에, 여기서 막히면 붙여도 카드가 뜨지 않는다.
+
+User-agent: Slackbot-LinkExpanding
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: kakaotalk-scrap
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Yeti
 Disallow: /
