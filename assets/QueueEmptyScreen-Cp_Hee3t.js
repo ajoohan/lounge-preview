@@ -1,0 +1,1 @@
+import{j as t,E as e,a as n}from"./index-CGQhK7ZT.js";function a(){return t.jsx(e,{title:"지금 검수할 게 없습니다",body:"파트너가 산출물을 제출하면 마감이 급한 순서로 여기에 쌓입니다.",action:t.jsx("button",{type:"button",className:"btn btn--tool",onClick:()=>n("projects"),children:"프로젝트 보기"})})}export{a as default};
