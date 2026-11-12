@@ -1,0 +1,1 @@
+import{c as i}from"./index-CEa-cz4h.js";function n(){i("/admin/notify/flush",{method:"POST",body:{}}).catch(()=>{})}function c(o){o&&i(`/econtracts/${encodeURIComponent(o)}/finalize`,{method:"POST",body:{}}).catch(()=>{})}export{c as kickFinalize,n as kickNotify};
